@@ -63,9 +63,10 @@ img {
 /*------------------- collective*/
 .list {
     list-style: none;
-    Font size: 14px;
-    Line height: 1.2;
-    Letter spacing: 3%
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.03;
+   
 }
 
 
