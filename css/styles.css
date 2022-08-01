@@ -1,0 +1,249 @@
+:root {
+    --accent-color: #E8E5E5;
+    --title-color: ;
+    --second-titlr-color: #FFFFFF;
+    --primery-text-color: #0C0C0D;
+    --list-color: ;
+    --background-color-grey: #656577;
+    --background-color-pink: #ED8DBB;
+
+}
+
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+body {
+    color: var(--primery-text-color);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    display: inline-block;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+address {
+    font-style: normal;
+}
+
+/*
+img {
+    display: block;
+    min-width: 100%;
+    height: auto;
+} */
+
+/*------------------- collective*/
+.list {
+    list-style: none;
+    Font size: 14px;
+    Line height: 1.2;
+    Letter spacing: 3%
+}
+
+
+.link,
+.current {
+    text-decoration: none;
+}
+
+.pre-title {
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.17;
+    letter-spacing: 0.05em;
+}
+
+.after-title {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
+}
+
+
+
+.container {
+    width: 1324px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+/*-------------------hesder*/
+.header {
+
+
+    background-image: linear-gradient(to bottom,
+            #ED8DBB,
+            #FBD3E6);
+    padding-top: 32px;
+    padding-bottom: 16px;
+}
+
+.header-list,
+.address,
+.tel,
+.mail {
+    color: var(--primery-text-color);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.address:hover,
+.address:focus {
+    color: var(--accent-color);
+}
+
+.tel:hover,
+.tel:focus {
+    color: var(--accent-color);
+}
+
+.mail:hover,
+.mail:focus {
+    color: var(--accent-color);
+}
+
+.header-list {
+    display: flex;
+    width: 1324px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.master {
+    font-family: 'Pattaya', cursive, sans-serif;
+    font-size: 52px;
+    color: var(--background-color-grey);
+}
+
+/*------------------hero*/
+.hero {
+    background-image: linear-gradient(to bottom,
+            #B6ACAC,
+            #656577);
+    padding-top: 16px;
+
+    color: var(--accent-color);
+}
+
+.hero-list {
+    display: flex;
+    gap: 70px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.hero-item {
+    color: var(--accent-color);
+    padding-top: 24px;
+    padding-bottom: 24px;
+
+}
+
+
+.hero-item:hover,
+.hero-item:focus {
+    color: var(--background-color-pink);
+
+}
+
+.hero-wrap {
+    display: flex;
+
+
+}
+
+.hero-foto {
+    margin-left: 24px;
+}
+
+.hero-text {
+    padding: 100px 80px 120px 30px;
+    margin: auto;
+
+}
+
+.hero-pry-title {
+    margin-bottom: 24px;
+}
+
+.hero-title {
+
+
+    font-size: 72px;
+    line-height: 1.18;
+    letter-spacing: 0.05;
+    margin-bottom: 104px;
+}
+
+.button {
+    margin-left: 175px;
+    display: inline-block;
+    border-radius: 25px;
+    padding: 12px 20px;
+    min-width: 160px;
+    text-align: center;
+
+    border: 1px solid var(--background-color-pink);
+
+    color: var(--accent-color);
+    background-color: transparent;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.3;
+    letter-spacing: 0.09em;
+}
+
+.button:hover,
+.button:focus{
+    color: var(--background-color-pink);
+}
